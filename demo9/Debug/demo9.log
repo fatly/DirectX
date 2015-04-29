@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/1/8 13:04:34。
+     1>项目“E:\Projects\Visual Studio 2013\DirectX3D\demo9\demo9.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt demo9.cpp
+         demo9.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\Visual Studio 2013\DirectX3D\Debug\demo9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\Visual Studio 2013\DirectX3D\Debug\demo9.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\Visual Studio 2013\DirectX3D\Debug\demo9.lib" /MACHINE:X86 Debug\demo9.obj
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "void __cdecl GetExecuteDirectory(wchar_t *,int)" (?GetExecuteDirectory@@YAXPA_WH@Z)，该符号在函数 "long __cdecl InitObject(void)" (?InitObject@@YAJXZ) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "void __cdecl GetExecuteDirectory(char *,int)" (?GetExecuteDirectory@@YAXPADH@Z)，该符号在函数 "long __cdecl InitObject(void)" (?InitObject@@YAJXZ) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall DirectInput::DirectInput(void)" (??0DirectInput@@QAE@XZ)，该符号在函数 _WinMain@16 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: long __thiscall DirectInput::Initialize(struct HWND__ *,struct HINSTANCE__ *,unsigned long,unsigned long)" (?Initialize@DirectInput@@QAEJPAUHWND__@@PAUHINSTANCE__@@KK@Z)，该符号在函数 _WinMain@16 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall DirectInput::GetInput(void)" (?GetInput@DirectInput@@QAEXXZ)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall DirectInput::IsKeyDown(int)" (?IsKeyDown@DirectInput@@QAE_NH@Z)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall DirectInput::IsMouseButtonDown(int)" (?IsMouseButtonDown@DirectInput@@QAE_NH@Z)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: float __thiscall DirectInput::MouseDX(void)" (?MouseDX@DirectInput@@QAEMXZ)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: float __thiscall DirectInput::MouseDY(void)" (?MouseDY@DirectInput@@QAEMXZ)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>demo9.obj : error LNK2019: 无法解析的外部符号 "public: float __thiscall DirectInput::MouseDZ(void)" (?MouseDZ@DirectInput@@QAEMXZ)，该符号在函数 "void __cdecl Update(struct HWND__ *)" (?Update@@YAXPAUHWND__@@@Z) 中被引用
+     1>E:\Projects\Visual Studio 2013\DirectX3D\Debug\demo9.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“E:\Projects\Visual Studio 2013\DirectX3D\demo9\demo9.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.63
